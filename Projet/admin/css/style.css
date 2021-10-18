@@ -1,0 +1,31 @@
+table, tr, td, th {
+	border:2px solid black;
+	 border-collapse: collapse;
+}
+
+td, th {
+	padding:10px;
+	overflow: auto;
+	word-wrap: break-word;
+}
+
+table {
+	width:95%;
+	margin:10px;
+	table-layout: fixed;
+	text-align:center;
+}
+
+.text {
+	width:100%;
+	max-height:200px;
+}
+
+form {
+	width:100%;
+}
+
+
+body {
+	font-family:Arial;
+}

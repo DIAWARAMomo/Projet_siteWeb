@@ -1,0 +1,26 @@
+/* Grand ordi */
+@media screen and (min-width: 2100px) {
+	body {
+		font-size:300%;
+	}
+	textarea,input {
+		font-size:150%;
+	}
+	.text {
+		max-height:600px;
+	}
+}
+/* Tablette */
+@media screen and (max-width: 768px) {
+	.travaux tr > *:nth-child(n+5) {
+		display:none;
+	}
+}
+/*¨Portable */
+@media screen and (max-width: 425px) {
+	
+	tr > *:nth-child(2) {
+		display:none;
+	}
+	
+}
